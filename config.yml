@@ -11,3 +11,17 @@ defaults:
     values:
       layout: default
 
+plugins:
+  - jekyll-last-modified-at
+
+# Enable safe mode
+safe: safe
+
+whitelist:
+  - jekyll-last-modified-at
+  - liquify_filter.rb
+
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%b-%d-%y'

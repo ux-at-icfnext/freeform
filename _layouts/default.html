@@ -1,0 +1,21 @@
+---
+---
+<html>
+    {% include partials/head.html %}
+
+    <body>
+        {% if page.type=="prototype" %}
+            {% include partials/proto/header.html %}
+        {% else %}
+            {% include partials/lib/header.html %}
+        {% endif %}
+        
+        {{ content }}
+        
+        {% if page.type=="prototype" %}
+            {% include partials/proto/footer.html %}
+        {% else %}
+            {% include partials/lib/footer.html %}
+        {% endif %}
+    </body>
+</html>
