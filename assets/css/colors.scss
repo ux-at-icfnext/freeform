@@ -1,5 +1,3 @@
----
----
 $papercolor: {{ site.data.colors.paper }};
 $inkcolor: {{ site.data.colors.ink }};
 $inversecolor: {{ site.data.colors.inverse }};
@@ -8,6 +6,8 @@ $secondarycolor: {{ site.data.colors.secondary }};
 $accentcolor: {{ site.data.colors.accent }};
 $linkcolor: {{ site.data.colors.link }};
 $grays: {{ site.data.colors.grays }};
+$header-footer-background-color: {{site.data.colors.header-footer-color}}; 
+$overlay-background-color: {{site.data.colors.overlay-background-color}};
 
 @function tint($color, $percentage) {
     @return mix(white, $color, $percentage);

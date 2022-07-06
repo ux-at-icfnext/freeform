@@ -3,7 +3,7 @@ permalink: pretty
 defaults:
   - scope:
       path: "assets/img/icons"
-    values: 
+    values:
       icon: true
   - scope:
       path: "" # an empty string means all files in the project
@@ -13,6 +13,8 @@ defaults:
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-postcss
+  - jekyll-autoprefixer
 
 # Enable safe mode
 safe: safe
@@ -21,6 +23,15 @@ whitelist:
   - jekyll-last-modified-at
   - liquify_filter.rb
 
+include:
+- _pages
+
+# Access snippet of a post's content 
+excerpt_separator: <!--more-->
+
+sass:
+  style: compressed
+  autoprefixer:
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
