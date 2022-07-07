@@ -1,7 +1,7 @@
 ---
 layout: template
 categories: [templates, template-page-2]
-level: third
+type: [detail-page]
 title: Nested Template Page 5
 permalink: /templates/template-page-2/nested-template-page-5/
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
