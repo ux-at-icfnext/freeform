@@ -15,5 +15,7 @@
 {% include_relative left-nav.scss %}
 {% include_relative template.scss %}
 {% include_relative breadcrumbs.scss %}
+{% include patterns/buttons.scss %}
+{% include_relative buttons_page.scss %}
 
 

@@ -62,16 +62,7 @@ const mobileMenu = ()=>{
     contentContainer.classList.toggle("inactive");
     footer.classList.toggle("inactive");
     document.querySelector("body").classList.toggle("scroll");
-    // if(contentContainer){
-    //     contentContainer.addEventListener("click", e=>{
-    //         e.preventDefault();
-    //     })
-    // }
-    // if(footer){
-    //     footer.addEventListener("click", e=>{
-    //         e.preventDefault();
-    //     })
-    // }
+  
 }
 //exit mobile menu
 const removeMobileMenu =()=>{

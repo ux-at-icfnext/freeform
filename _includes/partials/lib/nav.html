@@ -15,9 +15,9 @@
                     {% for page in site.pages %}
                         {% if page.categories contains item.categories %}
                             {% if page.type == "sub-nav-item" %}
-                                <a href="{{page.url}}" class="nav-second-level-page text-style">
-                                    {{page.title}}
-                               </a>
+                                    <a href="{{page.url}}" class="nav-second-level-page text-style">
+                                        {{page.title}}
+                                    </a>
                             {% endif %}
                         {% endif %}
                     {% endfor %}
