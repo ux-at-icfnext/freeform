@@ -69,3 +69,7 @@ window.addEventListener("resize", ()=>{
     mobileMenu();
     }
 })
+//collapse mobile menu when wrapper container is clicked on
+mobileMenuWrapper.addEventListener("click", ()=>{
+    mobileMenu();
+})
