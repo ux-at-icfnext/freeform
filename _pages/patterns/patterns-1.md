@@ -1,8 +1,8 @@
 ---
 layout: landing
-categories: [patterns, patterns-1]
-title: Patterns 1 Page
+categories: [patterns, patterns-page]
+title: Patterns Page
 type: [sub-nav-item]
-permalink: /patterns/patterns-1/
+permalink: /patterns/patterns-page/
 ---
 {{content | stringify }}

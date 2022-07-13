@@ -7,8 +7,10 @@ $accentcolor: {{ site.data.colors[5].value }};
 $linkcolor: {{ site.data.colors[6].value }};
 $grays: {{ site.data.colors[7].value }};
 
-$overlay-background-color: rgba(220,220,220, 0.95);
+$overlay-background-color: rgba(0,0,0,0.8);
 $header-footer-background-color: #f9f9f9;
+$dark-mode-background-color: #202124;
+$header-footer-dark-mode-background-color: #202120;
 // $papercolor: {{ site.data.colors.paper }};
 // $inkcolor: {{ site.data.colors.ink }};
 // $inversecolor: {{ site.data.colors.inverse }};

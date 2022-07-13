@@ -1,8 +1,8 @@
 ---
 layout: landing
-categories: [templates, template-page-2]
+categories: [templates, sample-template-page]
 type: [sub-nav-item]
-title: Template Page 2
-permalink: /templates/template-page-2/
+title: Sample Template Page 
+permalink: /templates/sample-template-page/
 ---
 {{content | stringify}}
