@@ -2,15 +2,22 @@
 layout: left-rail
 ---
 <div class="card-container">
-    {% for item in site.pages %}
-        {% if page.categories[1] == item.categories[1] %}
-            {% if item.type contains "detail-page" %}
-                <div class="card">
-                    <h4>{{item.title}}</h4>
-                    <p>{{item.description}}</p>
-                    <p class="read-more"><a href="{{item.url}}">Read More</a></p>
-                </div>
+    {% if site.pages %} 
+        {% assign sortedCards = site.pages | sort: "title" %}
+        {% for item in sortedCards %}
+            {% if page.categories[1] == item.categories[1] %}
+                {% if item.type contains "detail-page" %}
+                    <div class="card">
+                        <h4>{{item.title}}</h4>
+                        <p>{{item.description}}</p>
+                        <p>
+                            <a href="{{item.url}}">
+                                <button class="read-more">Read More</button>
+                            </a>
+                        </p>
+                    </div>
+                {% endif %}
             {% endif %}
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
+    {% endif %}
 </div>

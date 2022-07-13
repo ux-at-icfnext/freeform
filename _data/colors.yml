@@ -1,10 +1,25 @@
-paper: "#ffffff" 
-ink: "#000000"
-inverse: "#ebebeb"
-primary: "#252f3e"
-secondary: "#585858"
-accent: "#e5a000"
-link: "#005ea2"
-grays: "#000000"
-header-footer-color: "#f9f9f9"
-overlay-background-color: rgba(220,220,220, 0.95);
+- name: paper
+  value: "#ffffff"
+- name: ink
+  value: "#000000"
+- name: inverse
+  value: "#ebebeb"
+- name: primary
+  value: "#252f3e"
+- name: secondary
+  value: "#585858"
+- name: accent
+  value: "#e5a000"
+- name: link
+  value: "#005ea2"
+- name: grays
+  value: "#000000"
+  
+# paper: "#ffffff" 
+# ink: "#000000"
+# inverse: "#ebebeb"
+# primary: "#252f3e"
+# secondary: "#585858"
+# accent: "#e5a000"
+# link: "#005ea2"
+# grays: "#000000"

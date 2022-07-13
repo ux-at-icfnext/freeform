@@ -1,8 +1,8 @@
 ---
 layout: left-rail
-categories: [patterns, patterns-1]
+categories: [patterns, patterns-page]
 title: Nested Pattern Page
-permalink: /patterns/patterns-1/nested-pattern-page/
+permalink: /patterns/patterns-page/nested-pattern-page/
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 type: [detail-page]
 ---

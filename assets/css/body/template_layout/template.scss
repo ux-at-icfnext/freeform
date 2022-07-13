@@ -1,7 +1,10 @@
 .design-files{
     display: flex; 
+    //mobile
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+        flex-direction: column;  
+    }
 }
-
 .noscroll{
     overflow: hidden;  
 }
@@ -12,8 +15,12 @@
     &:hover{
         cursor: pointer;
     }
+    //mobile
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+        width: 80%;
+        margin: 0 auto;
+    }
 }
-
 .expanded-img-container{
     display: none;
     &.overlay{
@@ -28,31 +35,26 @@
         overflow-y: scroll;
         .expanded-img{
             display: block;
-            position: absolute;
-            top: 80;
-            width: 100%;
-            height: auto;
+            margin: 50px 40px 0px 40px;
+            width: 90%;
+            height: auto;  
+            //mobile
+            @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+                margin: 50px 20px 0px 20px;
+            }
         }  
         .collapse-expanded-img{
             position: absolute;
-            top: 40;
+            top: 10;
             right: 10;
             width: 40px;
             height: 40px;
             z-index: 3;
+            fill: white;
             &:hover{
                 cursor: pointer;
             }
         }  
     }
 }
-//mobile
-@media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
-    .design-files{
-        flex-direction: column;
-    }
-    .template-img{
-        width: 80%;
-        margin: 0 auto;
-    }
-}
+
