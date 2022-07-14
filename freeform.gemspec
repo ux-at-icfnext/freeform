@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
     spec.name          = "Nex+ Library Freeform"
-    spec.version       = "0.1.0"
-    spec.authors       = ["dara"]
-    spec.email         = ["dara.pressley@icfnext.com"]
+    spec.version       = "1.0.0"
+    spec.authors       = ["dara", "demars", "tiffany", "peyton"]
+    spec.email         = ["dara.pressley@icfnext.com", "demars.berhe@icfnext.com", "tiffany.scott@icfnext.com", "peyton.stewart@icfnext.com"]
   
     spec.summary       = "For library specifications and prototyping"
     spec.homepage      = "http://nextfreeform.io"
