@@ -5,7 +5,6 @@ title: Print Guidance
 type: [sub-nav-item]
 permalink: /guidance/print-guidance/
 ---
-# Print Guidance
 
 ## Overview 
 Website users are able to print pages using their browser's normal printing functionality. Guidelines related to the format of the information that prints out are included in this section. 
