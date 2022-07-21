@@ -11,6 +11,9 @@
     .left-rail-item, .left-rail-title{
         border-color: $gray-80;
     }
+    .color div{
+        border: 1px solid $papercolor;
+    }
     .header-container, .footer-container{
         background-color: $header-footer-dark-mode-background-color;
         .current{
