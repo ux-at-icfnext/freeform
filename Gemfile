@@ -6,6 +6,8 @@ git_source(:github) {|repo_name| "https://github.com/ux-at-icfnext/freeform" }
 
 gem "jekyll"
 
+gem "webrick"
+
 gem 'jekyll-autoprefixer'
 
 group :jekyll_plugins do
