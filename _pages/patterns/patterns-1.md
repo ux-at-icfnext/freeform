@@ -1,5 +1,5 @@
 ---
-layout: template
+layout: pattern
 categories: [patterns, patterns-page]
 title: Patterns Page
 type: [sub-nav-item]
