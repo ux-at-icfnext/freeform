@@ -6,6 +6,12 @@ $grid-lg-min: 1024px;
 $grid-lg-max: 1200px;
 $grid-xl-max: 1400px;
 
+.content-flex-toc{
+    display: flex; 
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px) 
+        flex-direction: column-reverse;
+     } 
+}
 .container {
     max-width: 98%;
     margin: auto;
