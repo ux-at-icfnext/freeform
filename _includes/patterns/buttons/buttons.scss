@@ -1,0 +1,57 @@
+{% include patterns/buttons/_button-mixins.scss %}
+
+$primary-bg-color: $linkcolor;
+$primary-text-color:$inversecolor;
+$secondary-bg-color: $accentcolor;
+$secondary-text-color: $inversecolor;
+
+.button {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.unstyled-button{
+    text-decoration: underline;
+    font-weight: normal;
+}
+.disabled{
+    @include button-color($papercolor, $inversecolor);
+    &:hover {
+        color: $papercolor;
+        cursor: auto;
+    }
+}
+.primary-button{
+    @include button-color($primary-text-color, $primary-bg-color);
+    &:hover {
+        @include button-color($primary-text-color, $primary-bg-color, 10%);
+    }
+    &.hover{
+        @include button-color($primary-text-color, $primary-bg-color, 10%);
+    }
+    &.active{
+        @include button-color($primary-text-color, $primary-bg-color, 20%);
+    }
+    &.focus{
+        @include focus($primary-text-color);
+
+    }
+}
+//secondary button
+.secondary-button{
+    @include button-color($secondary-text-color, $secondary-bg-color);
+    &:hover {
+        @include button-color($secondary-text-color, $secondary-bg-color, 10%);
+    }
+    &.hover{
+        @include button-color($secondary-text-color, $secondary-bg-color, 10%);
+    }
+    &.active{
+        @include button-color($secondary-text-color, $secondary-bg-color, 20%);
+    }
+    &.focus{
+        @include focus($secondary-text-color);
+    }
+}
