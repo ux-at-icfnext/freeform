@@ -26,6 +26,11 @@ $grid-xl-max: 1400px;
 .content-flex{
     display: flex;  
 }
+.flex-wrap-space{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
 .text{
     width: 90%;
     padding: 20px;

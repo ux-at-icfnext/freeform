@@ -1,0 +1,17 @@
+@mixin button-color($text-color, $bg-color, $percent: 0%){
+    color: $text-color;
+    background-color: darken($bg-color, $percent);
+    @if($percent != 0%){
+        &:hover {
+            color: $text-color;
+            background-color: darken($bg-color, $percent); 
+        }
+    }
+}
+@mixin focus($text-color){
+    &:hover {
+        color: $text-color;
+    }
+    outline: 7px solid $linkcolor;
+    outline-offset: 2px;
+}
