@@ -38,9 +38,24 @@ $gray-20: tint($grays, 20);
 $gray-10: tint($grays, 10);
 $gray-5: tint($grays, 5);
 
-.paper{
+.paper-color{
     background-color: $papercolor;
 }
-.ink{
+.ink-color{
     background-color: $inkcolor;
+}
+.primary-color{
+    background-color: $primarycolor;
+}
+.secondary-color{
+    background-color: $secondarycolor;
+}
+.accent-color{
+    background-color: $accentcolor;
+}
+.inverse-color{
+    background-color: $inversecolor;
+}
+.link-color{
+    background-color: $linkcolor;
 }
